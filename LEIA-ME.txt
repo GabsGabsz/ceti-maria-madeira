@@ -1,0 +1,57 @@
+SITE DO CETI PROFESSOR ANTÔNIO MARIA MADEIRA
+Projeto escolar — HTML e CSS
+
+COMO ABRIR
+1. Extraia o ZIP inteiro (opção "Extrair tudo" do Windows).
+2. Entre na pasta site-ceti e abra index.html no navegador.
+3. Mantenha as páginas, style.css e a pasta imagens juntas.
+Não é necessário instalar programas, usar servidor ou ter internet.
+
+AS SEIS PÁGINAS
+index.html — Início
+sobre.html — Sobre a Instituição
+cursos.html — Cursos e Projetos
+noticias.html — Notícias
+galeria.html — Galeria
+contato.html — Contato (página acrescentada para completar o menu)
+
+UM ÚNICO CSS
+Todas as páginas contêm, dentro de <head>:
+<link rel="stylesheet" href="style.css">
+O CSS tem seções comentadas para base, cabeçalho, componentes,
+páginas, rodapé e adaptação ao tamanho da tela.
+Classes repetidas com números foram substituídas por classes reutilizáveis.
+Não volte a colocar estilos em outro CSS ou diretamente nas tags HTML.
+
+PRINCIPAIS CORREÇÕES
+- Menus dentro de <nav>, tags fechadas corretamente e títulos organizados.
+- Caminhos locais de Windows removidos; imagens organizadas em imagens/.
+- Cabeçalho, navegação, página ativa e rodapé padronizados.
+- Cores, espaçamentos, cartões e imagens aproximados das referências.
+- Layout adaptável a computador, tablet e celular.
+- Links internos válidos, foco visível por teclado e textos alternativos.
+- Saiba mais / Ler mais usam <details> e <summary>: abrem e fecham sem JavaScript.
+- Fotos da galeria abrem o arquivo original: use Voltar para retornar ao site.
+- Nome padronizado conforme a fachada fotografada: Professor Antônio Maria Madeira.
+
+CONTEÚDO PARA O PROFESSOR REVISAR
+1. Notícias: os títulos vieram do exercício. Estão identificados como exemplos,
+   sem datas que aparentem confirmar eventos. As imagens são ilustrativas.
+   Substitua títulos, resumos, detalhes e fotos por informações confirmadas.
+2. Contato: o bairro e a cidade vieram do HTML enviado. Telefone, e-mail,
+   endereço completo e horários não foram fornecidos; insira os dados oficiais.
+   Não há formulário que simule o envio de mensagens.
+3. Cursos: a denominação "Técnico em Informática" foi mantida do cursos.html.
+   Confirme o nome oficial e a oferta vigente antes de divulgar o site.
+4. Missão, visão e valores aproveitam o texto escolar dos grupos; confirme a
+   redação institucional antes de uma publicação oficial.
+5. Não foram inventados perfis sociais, contatos ou resultados de eventos.
+
+CONTINUIDADE EM SALA
+- Para criar outro cartão, copie um artigo e altere imagem e conteúdo.
+- Para alterar uma cor geral, edite as variáveis no início de style.css.
+- Ao mudar um item do menu, repita a mudança nas seis páginas.
+- Use aria-current="page" somente no link da página atual de cada menu.
+- As imagens têm nomes simples, sem espaços, para facilitar o trabalho.
+- SVGs pequenos no HTML são ícones; a imagem de livro enviada é a marca visual.
+- Não há bibliotecas, fontes externas, serviços de envio ou dependências.
